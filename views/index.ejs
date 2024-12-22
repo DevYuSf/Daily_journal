@@ -1,0 +1,20 @@
+<%- include("partial/header") -%>
+    <main>
+        <div class="main">
+           <% header.forEach((post)=>{ %>
+            <h1><%= post.title %></h1>                
+            <p><%= post.content %></p>
+
+           <% }) %>
+                
+           
+            
+        </div>
+        
+
+        
+        
+
+    </main>
+
+<%- include("partial/footer") -%>
